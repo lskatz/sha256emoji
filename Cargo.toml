@@ -1,0 +1,17 @@
+[package]
+name = "sha256emoji"
+version = "0.1.0"
+authors = ["Lee Katz <gzu2@cdc.gov>"]
+edition = "2018"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sha256   = "1.0"
+emoji    = "0.2"
+
+[[bin]]
+name = "sha256emoji"
+path = "src/bin/sha256emoji.rs"
+
