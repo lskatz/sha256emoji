@@ -10,6 +10,7 @@ license = "MIT"
 [dependencies]
 sha256   = "1.0"
 emoji    = "0.2"
+clap     = "2"
 
 [[bin]]
 name = "sha256emoji"
