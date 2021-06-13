@@ -30,7 +30,8 @@ This project is written in rust and so you can use `cargo`
 to install.
 
     git clone https://github.com/lskatz/sha256emoji
-    cargo build --release ./sha256emoji
+    cd sha256emoji
+    cargo build --release
     cp -v ./sha256emoji ~/bin
 
 ## Algorithm
