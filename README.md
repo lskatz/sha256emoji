@@ -33,3 +33,10 @@ to install.
     cargo build --release ./sha256emoji
     cp -v ./sha256emoji ~/bin
 
+## Algorithm
+
+* Generates the sha256sum of a file
+* Calculates how far from 0 to the max hexadecimal number it could be
+* Uses that same ratio from 0 to the number of available emoticons
+* Displays the emoticon at that ratio
+
