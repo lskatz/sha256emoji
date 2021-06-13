@@ -21,7 +21,7 @@ fn main() {
 
     let filename       = matches.value_of("path").unwrap();
     let input          = Path::new(filename);
-    let digest:String  = digest_file(input).unwrap();
+    let digest:String  = digest_file(input).expect("Was not able to hashsum the file");
     /* The full string for the sha256 digest is too large
      * for converting to an int and so we will take a
      * substring of 31 digits. 32 digits seems to parse

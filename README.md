@@ -1,7 +1,7 @@
 # sha256emoji
 
 Runs sha256sum on a file and then interprets the hashsum as an emoji.
-Contributions welcome.  Immediate wishlist: unit testing; hashsum checking
+Contributions welcome.  Immediate wishlist: unit testing; hashsum checking; binary file hashsumming
 
 ## Quick start
 
