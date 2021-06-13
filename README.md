@@ -12,17 +12,17 @@ Contributions welcome.  Immediate wishlist: unit testing; hashsum checking; bina
 ## Usage
 
     $ sha256emoji --help
-    sha256emoji 0.1.0
+    sha256emoji 0.2.0
 
     USAGE:
-        sha256emoji [path-to-file]
+        sha256emoji [path-to-file]...
 
     FLAGS:
         -h, --help       Prints help information
         -V, --version    Prints version information
 
     ARGS:
-        <path-to-file>    Path to the filename
+        <path-to-file>    Path to the filename(s)
 
 ## Installation
 
