@@ -132,12 +132,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "hex"
-version = "0.4.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7f24254aa9a54b5c858eaee2f5bccdb46aaf0e486a595ed5fd8f86ba55232a70"
-
-[[package]]
 name = "itertools"
 version = "0.9.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -309,22 +303,12 @@ dependencies = [
 ]
 
 [[package]]
-name = "sha256"
-version = "1.0.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "77f336ed3354742b51d11c47dc0403bf81229548f2e130fcd21ccc471433334a"
-dependencies = [
- "hex",
- "sha2",
-]
-
-[[package]]
 name = "sha256emoji"
 version = "0.1.0"
 dependencies = [
  "clap",
  "emoji",
- "sha256",
+ "sha2",
 ]
 
 [[package]]
